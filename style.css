@@ -1,0 +1,122 @@
+
+*
+{
+	margin:0px;
+}
+body
+{
+	font-family:"comic sans ms",sans-serif;
+}
+header,footer
+{
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    padding:15px;
+}
+header>h1
+{
+	color:white;
+    margin-left: 20px;
+}
+header>h1::first-letter
+{
+	color:orange;
+	font-size:55px;
+}
+
+/*Main Navbar*/
+nav
+{
+	/* background:linear-gradient(45deg,cyan,darkslategrey); */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    text-align:center;
+	padding:20px;
+}
+nav>a 
+{
+	color:white;
+	text-decoration:none;
+	margin:20px;
+	padding:8px 15px;
+	border-radius:20px;
+}
+nav>a:hover
+{
+	box-shadow:0 0 10px white;
+}
+.active 
+{
+	border:2px solid white;
+	box-shadow:0 0 10px blue;
+}
+
+/*Main Sidebar*/
+aside
+{
+	background:linear-gradient(45deg,deeppink,darkslategrey);
+	width:200px;
+	height:100vh;
+	text-align:center;
+	float:left;
+}
+aside>a 
+{
+	color:white;
+	display:block;
+	position:relative;
+	top:80px;
+	margin-bottom:50px;
+	text-decoration:none;
+}
+aside>a:hover
+{
+	text-decoration:underline;
+}
+
+/*Main Section*/
+section
+{
+    background: linear-gradient(to right, #333333, #dd1818);
+	margin-left:200px;
+	padding:20px;
+	color:white;
+}
+section>article>h2 {
+    color:green;
+}
+section>article
+{
+    background: linear-gradient(to right, #a1ffce, #faffd1);
+    padding:10px;
+	margin:7px;
+    border-radius: 10px;
+    color:black;
+    margin-bottom: 10px;
+}
+
+/* button */
+section >article>button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px black;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .6s;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+section >article>button:hover{
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 10px black;
+    transform: translate(3px,1px);
+}
+/*Main Footer*/
+footer
+{
+	text-align:center;
+	color:white;
+}
